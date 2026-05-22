@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "UrbanoRJ",
+    "slug": "urbanorj",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#1A6B3C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.urbanorj.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O UrbanoRJ usa sua localização para registrar a posição exata dos problemas urbanos.",
+        "NSLocationAlwaysUsageDescription": "O UrbanoRJ usa sua localização para registrar a posição exata dos problemas urbanos.",
+        "NSCameraUsageDescription": "O UrbanoRJ usa a câmera para fotografar problemas urbanos.",
+        "NSPhotoLibraryUsageDescription": "O UrbanoRJ acessa a galeria para anexar fotos aos registros."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1A6B3C"
+      },
+      "package": "com.urbanorj.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "O UrbanoRJ usa sua localização para registrar a posição exata dos problemas urbanos."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
