@@ -25,7 +25,7 @@ export default function AboutScreen() {
       {/* topo com logo e nome */}
       <View style={styles.hero}>
         <View style={styles.logoCircle}>
-          <Ionicons name="city" size={40} color={COLORS.white} />
+          <Ionicons name="home" size={40} color={COLORS.white} />
         </View>
         <Text style={styles.appName}>UrbanoRJ</Text>
         <Text style={styles.tagline}>Denuncie. Acompanhe. Mude o Rio.</Text>
